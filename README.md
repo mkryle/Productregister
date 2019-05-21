@@ -1,12 +1,12 @@
 # Productregister
 #
 #
-#	PHP LABB 2 - Marucs Kryle
+#	PHP Productregister
 #
 #
 #  Skapa en databas i mysql med namn:  minDatabas
 #
-#  Se "wireframe.png" för Wireframe
+#  Se "wireframe.png" fÃ¶r Wireframe
 # 
 #
 #  (	
