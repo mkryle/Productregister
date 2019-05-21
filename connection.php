@@ -4,7 +4,7 @@
 $adress = "localhost";
 $logname = "root";
 $pass = "";
-$db = "hejsvejs";
+$db = "minDatabas";
 // connect sql
 $conn = new mysqli($adress, $logname, $pass, $db);
 
@@ -13,7 +13,7 @@ $conn = new mysqli($adress, $logname, $pass, $db);
 define('DB_SERVER', 'localhost');
 define('DB_USERNAME', 'root');
 define('DB_PASSWORD', '');
-define('DB_NAME', 'hejsvejs');
+define('DB_NAME', 'minDatabas');
  // connect sql
 $link = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);
  
