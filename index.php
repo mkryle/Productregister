@@ -9,10 +9,11 @@
 <?php 
  require 'connection.php'; 
  $wlcom  = new hey();
- $wlcom->welcome();
+ $msg = "";
+ echo $wlcom->welcome($msg);
  ?>
 <p>
-<h1>Connect to database</h2></p>
+<h2>Connect to database</h2></p>
 <p>
 <form id="dbform" method="post" action="createtables.php">
       

@@ -7,14 +7,19 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
     header("location: login.php");
     exit;
 } 
+$wlcom  = new hey();
+$welcomeUser = new loggedIn($wlcom);
 // welcome msg
 if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){;
- echo $welcome . htmlspecialchars($_SESSION["username"]) . $logout;
+ echo $welcome . $welcomeUser->welcomeUser($welcomeUser, $wlcom) . $logout;
 }
+
+
+
 ?>
  
 
-<h1>Bra produkter</h1>
+<h2>Dina produkter</h2>
 
 <p>
 <a href="add.php">Lägg till produkter</a>
